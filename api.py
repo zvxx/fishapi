@@ -1,8 +1,3 @@
-import os
-
-os.system('pip install flask') 
-os.system('pip install requests') 
-
 from flask import Flask, request ,jsonify
 import json
 import requests
