@@ -41,3 +41,4 @@ def Lev():
     Levi = requests.post(url, data=data, headers=headers).text
 
     print(Levi)
+app.run() 
