@@ -10,8 +10,7 @@ def Lev():
 
     email = request.args.get('email')
 
-    url = "https://www-useast1a.tiktok.com/passport/web/email/send_code/?aid=1459&account_sdk_source=web&sdk_version=2.0.2-tiktok&language=ar&verifyFp=verify_ljy72c28_SBDdQpvg_fbLa_4cvp_80aR_yJcyy0Wwck7L&target_aid=&shark_extra=%7B%22aid%22:1459,%22app_name%22:%22Tik_Tok_Login%22,%22channel%22:%22tiktok_web%22,%22device_platform%22:%22web_mobile%22,%22device_id%22:%227250528607784666629%22,%22region%22:%22IQ%22,%22priority_region%22:%22%22,%22os%22:%22android%22,%22referer%22:%22https:%2F%2Fwww.google.com%2F%22,%22root_referer%22:%22https:%2F%2Fwww.google.com%2F%22,%22cookie_enabled%22:true,%22screen_width%22:412,%22screen_height%22:892,%22browser_language%22:%22ar-AE%22,%22browser_platform%22:%22Linux+armv81%22,%22browser_name%22:%22Mozilla%22,%22browser_version%22:%225.0+(Linux%3B+Android+10%3B+K)+AppleWebKit%2F537.36+(KHTML,+like+Gecko)+Chrome%2F114.0.0.0+Mobile+Safari%2F537.36%22,%22browser_online%22:true,%22verifyFp%22:%22verify_ljy72c28_SBDdQpvg_fbLa_4cvp_80aR_yJcyy0Wwck7L%22,%22app_language%22:%22ar%22,%22webcast_language%22:%22ar%22,%22tz_name%22:%22Asia%2FBaghdad%22,%22is_page_visible%22:true,%22focus_state%22:true,%22is_fullscreen%22:false,%22history_len%22:3,%22battery_info%22:null%7D&msToken=OuVAIyc42ciAcM9ys8Pot7UxvksRT96rJtDFamzm2W1u8mt7c2tRGj6T5ReLLnm5i0FGNMdu2T-6sPAwzDAalJeM2YqZ2EE5MWUthcYSEsOGwpkL-q8Tgg3plVYE6jcqxZOvkw==&X-Bogus=DFSzxwVL4or6ajuStJqtk206YePf&_signature=_02B4Z6wo00001F3IM7AAAIDBZukeqqK4KbRdyDcAAHPmf6"
-
+    url = "https://www-useast1a.tiktok.com/passport/web/email/send_code/"
     headers = {
 
 'Host':'www-useast1a.tiktok.com',
