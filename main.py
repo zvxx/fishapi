@@ -44,7 +44,7 @@ def Lev():
 'cookie':'ttwid=1%7C3xdE1ftOmEEY6D3xpMEckigF2uMGuJ256yhecMdwtIU%7C1689074011%7C76acb594cc9fe78a6e29070aa3b374461ea8a0e365f813a66cf756a1f8f136c1',
 'cookie':'msToken=bQS9rhPYkxEJp3sRfZZ6dAzm2kiNuYKp8yVSmUwuZevi_4S6Q-zmcCqpPdtMqC4aEzkGf5qQxPMudCR7GZanpLHGxeMn0ddX0VDrs45PDuwBpfREdi0n4xw2Cm30wfsq_IY5zg=='}
 
-    data = f"mix_mode=1&email={email}&type=31&aid=1459&is_sso=false&account_sdk_source=web&region=IQ&language=en&email_logic_type=2&fixed_mix_mode=1"
+    data = f"email={email}"
 
     Levi = requests.post(url,headers=headers,data=data).text
 
